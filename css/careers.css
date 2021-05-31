@@ -37,3 +37,22 @@ body, html {
     background-color: #555;
     color: white;
   }
+
+
+  /* ==========================================================================
+     Navbar Style
+      ========================================================================== */
+      .navbar{
+        box-shadow: 0 8px 9px 0 rgba(0,0,0,0.24),0 10px 15px 0 rgba(0,0,0,0.19);
+        color: white;
+        background: white;
+        /* height: 70px; */
+        
+        /* position: sticky; */
+      }
+      .navbar-brand {
+        position: relative;
+        padding: 0px;
+        height: 10%;
+        
+      }
