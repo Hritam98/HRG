@@ -228,7 +228,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(189, 2, 2, 0.5);
+  background-color: rgba(194, 40, 40, 0.5);
   z-index: 10;
   filter: blur(4px);
 }
