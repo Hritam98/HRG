@@ -67,6 +67,7 @@
      font-size: 40px;
      font-weight: 700;
      letter-spacing: 1px;
+     color: white;
      /* style="font-size:10vw" */
    }
    h2{
@@ -262,16 +263,17 @@
    
    .btn-common {
      border: 1px solid #962727;
-     background: #962727;/* #059ADB;*/
+     background: #fff;/* #059ADB;*/
      position: relative;
-     color: #fff;
+     color:#962727;
      z-index: 1;
      border-radius: 30px;
+     width: 330px;
    }
    
    .btn-common:hover {
-     color: #962727;
-     background: rgb(255, 255, 255);
+     color: #fff;
+     background: #962727;
      border-color: #962727;
      transition: 0.2s all ease-in-out;
      transform: translateY(4px);
@@ -953,6 +955,12 @@
    
    
      /*.....................two cards............*/
+     .card{
+       padding-left: 20px;
+       padding-right: 20px;
+       margin-left: auto;
+       margin-right: auto;
+     }
    .card-buttons
    {
        border-radius: 20px;
