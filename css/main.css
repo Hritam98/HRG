@@ -934,7 +934,13 @@ button:focus {
 /* ==========================================================================
  Footer Style
  ========================================================================== */
-footer {
+.footer2{
+  background: white;
+}
+.footer1{
+  background: #962727;
+}
+ footer {
   background: #962727;
   padding: 20px 0;
 }
@@ -1362,15 +1368,26 @@ video {
   }
 }
 
+@media(max-width: 4140px) and (min-width: 767px){
  #macpad{
   padding-bottom: 5%;
-}
+  margin-left: 25%;
+
+}}
+
+@media(max-width: 766px){
+  #macpad{
+   margin-bottom: 15%;
+   /* margin-left: 25%; */
+ 
+ }}
 
 @media (width: 1280px) { 
   #macpad { 
     padding-bottom: 0em;
     padding-top: 9%;
     margin-top: 10px;
+    /* margin-right: 50%; */
   } 
 } 
 @media(width: 1024px){
