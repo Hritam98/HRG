@@ -807,7 +807,18 @@
    /* ==========================================================================
     Footer Style
     ========================================================================== */
-   footer {
+    #footerstyle {
+      background: linear-gradient(90deg, #962727 57%, #fff 43%);
+    } 
+    
+    .footer2{
+      background: white;
+    }
+    .footer1{
+      background: #962727;
+    }
+
+    footer {
      background: #962727;
      padding: 20px 0;
    }
@@ -1504,4 +1515,15 @@
      height: 35px;
    }
    /* ------testimonial  close-------*/
-   
+   @media only screen and (max-width: 980px) { 
+ 
+    #footer2 {
+      display: none;
+    } 
+  }
+  @media only screen and (min-width: 980px) { 
+     
+    #footer3 {
+      display: none;
+    }
+  }

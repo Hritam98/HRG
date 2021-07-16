@@ -1297,17 +1297,38 @@ video {
 }
 /*..................................................................div fadeshow1 disappear..........................*/
 
-@media only screen and (max-width: 500px) { 
+@media only screen and (max-width: 836px) { 
   #fadeshow1 { 
     display: none; 
-  } 
+  }
+  
 }
-@media only screen and (min-width: 500px) { 
+@media only screen and (min-width: 836px) { 
   #fadeshow2 { 
     display: none; 
   } 
+  
 }
 
+
+@media only screen and (max-width: 980px) { 
+ 
+  #footer2 {
+    display: none;
+  } 
+}
+@media only screen and (min-width: 980px) { 
+   
+  #footer3 {
+    display: none;
+  }
+}
+
+
+
+#footerstyle {
+  background: linear-gradient(90deg, #962727 57%, #fff 43%);
+} 
 
 
 /*---------------------------------------fadeshow2 div styles--------------------*/
