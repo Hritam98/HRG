@@ -72,3 +72,7 @@ body, html {
       #footerstyle {
         background: linear-gradient(90deg, #962727 57%, #fff 43%);
       } 
+      .footer2{
+        background: white;
+        justify-content: center;
+      }

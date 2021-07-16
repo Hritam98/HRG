@@ -936,6 +936,7 @@ button:focus {
  ========================================================================== */
 .footer2{
   background: white;
+  justify-content: center;
 }
 .footer1{
   background: #962727;
