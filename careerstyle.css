@@ -96,7 +96,7 @@ body {
   }
   
   .btn-common {
-    border: 1px solid #962727;
+    border: 1px solid #eeeeee;
     background: #962727;/* #059ADB;*/
     position: relative;
     color: #fff;
@@ -210,7 +210,7 @@ body {
   background-color: #ccc;
   background-image: url("https://res.cloudinary.com/tamacloud/image/upload/v1623759852/gearbox_q2q5j2.png");
   background-size: cover;
-  height: 500px;
+  height: 550px;
   padding: 20px;
   padding-top: 90px;
   /* filter: blur(4px); */
