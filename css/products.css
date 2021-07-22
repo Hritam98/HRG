@@ -1044,7 +1044,7 @@
    #contactus{
      padding-top: 40px;
      padding-bottom: 40px;
-     background-color: #e7d3bd;
+     background-color: #962727;
    }
    .promo-title-2{
      font-size: 30px;
@@ -1669,6 +1669,18 @@
   @media only screen and (min-width: 980px) { 
      
     #footer3 {
+      display: none;
+    }
+  }
+
+
+  @media (min-width: 742px){ 
+    #bacha{
+      display: none;
+    }
+  }
+  @media (max-width: 742px){ 
+    #boro{
       display: none;
     }
   }
