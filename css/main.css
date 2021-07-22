@@ -1017,12 +1017,12 @@ button:focus {
 
 
 
-/*...........contact us and Map...........*/
+/*...........contact us and Map e7d3bd...........*/
 
 #contactus{
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #e7d3bd;
+  background-color: #962727;
 }
 .promo-title-2{
   font-size: 30px;
@@ -1389,17 +1389,21 @@ video {
     z-index: -1;
   }
 }
-
-@media(max-width: 4140px) and (min-width: 767px){
+@media(width: 768px){
+  #macpad{
+    margin-left: 25%;
+  }
+}
+@media(max-width: 7320px) and (min-width: 867px){
  #macpad{
   padding-bottom: 5%;
   margin-left: 25%;
 
 }}
 
-@media(max-width: 766px){
+@media(max-width: 866px){
   #macpad{
-   margin-bottom: 25%;
+   margin-bottom: 100px;
    /* margin-left: 25%; */
  
  }}
