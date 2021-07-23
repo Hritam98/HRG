@@ -1687,10 +1687,11 @@
 
 
   
-form {
+/* form {
   max-width: 100%;
   display: block;
-}
+} */
+
 form ul {
   margin: 0;
   padding: 0;
@@ -1766,41 +1767,17 @@ form small {
     color: #eeeeee
   }
 
-  li, p {
-    width: 100%;
-  }
 
-  input.btn {
-    margin: 1.5em 0 0.5em;
-  }
-
-  h1 {
-    font-size: 2.25em;
-  }
-
-  h3 {
-    font-size: 1.125em;
-  }
-
-  li small {
-    display: none;
-  }
 }
 
-.row {
-  width: 100%;
-  margin: 0 0 1em 0;
-  padding: 0 2.5em;
-}
+
 .row.header {
   padding-top: 1.5em;
   border-bottom: 1px solid #ccc;
   /* background: url(https://images2.imgbox.com/a5/2e/m3lRbCCA_o.jpg) left -80px; */
   color: #fff;
 }
-.row.body {
-  /* padding: .5em 2.5em 1em; */
-}
+
 
 .pull-right {
   float: right;
