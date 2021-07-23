@@ -1793,13 +1793,13 @@ form small {
   padding: 0 2.5em;
 }
 .row.header {
-  padding: 1.5em 2.5em;
+  padding-top: 1.5em;
   border-bottom: 1px solid #ccc;
   /* background: url(https://images2.imgbox.com/a5/2e/m3lRbCCA_o.jpg) left -80px; */
   color: #fff;
 }
 .row.body {
-  padding: .5em 2.5em 1em;
+  /* padding: .5em 2.5em 1em; */
 }
 
 .pull-right {
@@ -1807,6 +1807,6 @@ form small {
 }
 
 .enquiryformtama {
-  max-width: 850px;
+  max-width: 840px;
   background: url(https://res.cloudinary.com/tamacloud/image/upload/v1627027651/imageedit_2_3303424819.60f3c1629efd49.56641614_ilzzdi.png)
 }

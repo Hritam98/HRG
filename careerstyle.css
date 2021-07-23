@@ -97,7 +97,7 @@ body {
   
   .btn-common {
     border: 1px solid #962727;
-    background: #eeeeee;/* #059ADB;*/
+    background: #ffffff;/* #059ADB;*/
     position: relative;
     color: #962727;
     z-index: 1;
@@ -105,9 +105,9 @@ body {
   }
   
   .btn-common:hover {
-    color: #eeeeee;
+    color: #ffffff;
     background: #962727;
-    border-color: #eeeeee;
+    border-color: #ffffff;
     transition: 0.2s all ease-in-out;
     transform: translateY(4px);
     /* transition: all .50s ease-in-out;
